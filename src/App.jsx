@@ -8,21 +8,19 @@ import Footer from './components/Footer'
 import ProductInfo from './components/ProductInfo'
 import Math from './components/Math'
 import ProductList from './components/ProductList'
+import Person from './components/Person'
+import Product from './components/Product'
+import Password from './components/Password'
 
 
 const App = () => {
   return (
     <>
-    <ProductList />
-    <Math />
-    <ProductInfo />
-    <Greet />
-    <Header />
-    <MainContent />
-    <Footer />
+    <Password />
     </>
   )
 }
+
 
 export default App
 
