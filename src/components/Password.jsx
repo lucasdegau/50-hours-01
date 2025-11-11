@@ -13,19 +13,22 @@ const InvalidPassword = () => {
 };
 
 const RealPassword = ({isValid}) => {
-     if (isValid){
-        return <ValidPassword />;
-};
+//     if (isValid){
+//        return <ValidPassword />;
+//};
 
-     return <InvalidPassword />;
-};
+//     return <InvalidPassword />;
+//};
+
+return isValid ? <ValidPassword /> : <InvalidPassword />;
+}
 
 
 
 const Password = () => {
   return (
     <section>
-        <RealPassword isValid={true} />
+        <RealPassword isValid={false} />
         {console.log("Hello")}
     </section>
   )

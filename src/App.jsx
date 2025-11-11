@@ -11,12 +11,18 @@ import ProductList from './components/ProductList'
 import Person from './components/Person'
 import Product from './components/Product'
 import Password from './components/Password'
+import Cart from './components/Cart'
+import Weather from './components/Weather'
+import UserStatus from './components/UserStatus'
+import Greeting from './components/Greeting'
+import { FaShoppingCart } from 'react-icons/fa';
 
 
 const App = () => {
   return (
     <>
-    <Password />
+    <Greeting />
+    <FaShoppingCart />
     </>
   )
 }
